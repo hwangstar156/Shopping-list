@@ -27,6 +27,7 @@ function paintThat(newObj){
     li.appendChild(icon);
     icon.addEventListener('click',deleteList);
     shoppingList.appendChild(li);
+    li.scrollIntoView({block:'center'});
 }
 
 function handlerSubmmit(event){

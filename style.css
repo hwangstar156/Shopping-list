@@ -15,20 +15,27 @@ nav {
   font-size: 24px;
   justify-content: center;
 }
-nav i {
-}
+
 nav i {
   line-height: 48px;
 }
 .container {
   position: relative;
-  background-color: #6aa5fd;
+  background: rgb(71, 71, 75);
+  background: linear-gradient(
+    36deg,
+    rgba(71, 71, 75, 1) 0%,
+    rgba(9, 121, 117, 1) 26%,
+    rgba(49, 50, 116, 0.6705336426914152) 44%,
+    rgba(49, 115, 116, 0.6705336426914152) 81%,
+    rgba(49, 116, 79, 0.62877030162413) 90%
+  );
   max-width: 968px;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 20px;
   padding: 24px;
   height: 700px;
-  overflow-y: scroll;
+  overflow-y: auto;
   opacity: 0.9;
 }
 
